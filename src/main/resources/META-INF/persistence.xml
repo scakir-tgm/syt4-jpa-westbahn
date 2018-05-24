@@ -9,8 +9,9 @@
  <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
  <properties>
- <!-- MySQL -->
- <property name="hibernate.connection.url" value="jdbc:mysql://172.17.0.2:3306/westbahn" />
+ 
+ <!-- MySQL. -->
+ <property name="hibernate.connection.url" value="jdbc:mysql://192.168.237.152:3306/westbahn" />
  <property name="hibernate.connection.username" value="scakir" />
  <property name="hibernate.connection.password" value="scakir" />
  <property name="hibernate.connection.driver" value="com.mysql.jdbc.Driver" />
